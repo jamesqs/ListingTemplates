@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pureCSSClick to show and hide</title>
+</head>
+<style>
+    /* The normal operation on the mobile phone is hidden by default and displayed when you click the menu */
+    .changingContent{
+      display: none;
+    }
+    /* Show the sibling element div when the radio button is selected */
+
+    #btnA:checked~#a {
+      display: block;
+    }
+    #btnB:checked~#b {
+      display: block;
+    }
+    #btnC:checked~#c {
+      display: block;
+    }
+    /* Set the radio button to hide */
+    .btn {
+      display: block;
+    }
+</style>
+
+<body>
+    <!--  Use labe to bind buttons and radio buttons together -->
+    <label for="btnA">linkA</label>
+    <input id="btnA" class="btn" type="radio" name="selector" checked>
+
+    <label for="btnB">linkB</label>
+    <input id="btnB" class="btn" type="radio" name="selector">
+
+    <label for="btnC">linkC</label>
+    <input id="btnC" class="btn" type="radio" name="selector">
+
+    <div id="a" class="changingContent">A content</div>
+    <div id="b" class="changingContent">B content</div>
+    <div id="c" class="changingContent">C content</div>
+</body>
+
+</html>
