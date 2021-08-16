@@ -3,6 +3,8 @@
 #ebayurl: https://www.ebay.co.uk/str/britishredcross
 #ee2a24
 
+$generatorUrl="http://shopiago.application.triplajam.com";
+
 ?>
 <html>
 <head>
@@ -153,7 +155,7 @@
 
       $.ajax({
         method: "POST",
-        url: "http://apps.shopiago.git/preview.php?mode=code",
+        url: "<?= $generatorUrl ?>/preview.php?mode=code",
         data: $("form").serialize()
       })
       .done(function( msg ) {
@@ -169,7 +171,7 @@
 
       $.ajax({
         method: "POST",
-        url: "http://apps.shopiago.git/preview.php?mode=preview",
+        url: "<?= $generatorUrl ?>/preview.php?mode=preview",
         data: $("form").serialize()
       })
       .done(function( msg ) {
@@ -212,7 +214,7 @@
 
       $.ajax({
         method: "POST",
-        url: "http://apps.shopiago.git/categories.php",
+        url: "<?= $generatorUrl ?>/categories.php",
         data: { ebayurl: ebayurl }
       })
       .done(function( msg ) {
