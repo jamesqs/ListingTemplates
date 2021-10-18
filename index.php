@@ -26,7 +26,7 @@ $generatorUrl="http://shopiago.application.triplajam.com";
 
   <div class="container mx-auto mb-16">
     <form>
-      <img src="https://app.shopiago.com/assets/app-images/main-logo.png" class="mt-5 ml-1" />
+      <img src="https://app.shopiago.com/assets/app-images/main-logo.png" class="mt-5 ml-1 w-32" />
 
       <div class=" p-6">
         <h1 class="font-black text-3xl mb-5">Template Generator</h1>
