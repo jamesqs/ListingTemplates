@@ -3,8 +3,8 @@
 #ebayurl: https://www.ebay.co.uk/str/britishredcross
 #ee2a24
 
-//$generatorUrl="http://shopiago.application.triplajam.com";
-$generatorUrl="http://apps.shopiago.git";
+$generatorUrl="http://shopiago.application.triplajam.com";
+//$generatorUrl="http://apps.shopiago.git";
 
 ?>
 <html>
