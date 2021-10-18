@@ -164,7 +164,7 @@
   <!-- footer -->
   <? } ?>
 
-  <div class="text-center text-sm mt-5 mb-5 "><img src="https://www.shopiago.com/application/themes/shopiago/assets/images/logo.png" class="h-8 m-auto mb-2" />This listing is created with Shopiago.</div>
+  <div class="text-center text-sm mt-5 mb-5 "><img src="https://app.shopiago.com/assets/app-images/main-logo.png" class="h-8 m-auto mb-2" />This listing is created with Shopiago.</div>
 </div>
 
 

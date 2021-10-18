@@ -3,7 +3,8 @@
 #ebayurl: https://www.ebay.co.uk/str/britishredcross
 #ee2a24
 
-$generatorUrl="http://shopiago.application.triplajam.com";
+//$generatorUrl="http://shopiago.application.triplajam.com";
+$generatorUrl="http://apps.shopiago.git";
 
 ?>
 <html>
@@ -214,7 +215,8 @@ $generatorUrl="http://shopiago.application.triplajam.com";
 
       $.ajax({
         method: "POST",
-        url: "<?= $generatorUrl ?>/categories.php",
+        //url: "<?= $generatorUrl ?>/categories.php",
+        url: "<?= $generatorUrl ?>/simpledom/test.php",
         data: { ebayurl: ebayurl }
       })
       .done(function( msg ) {
@@ -226,9 +228,6 @@ $generatorUrl="http://shopiago.application.triplajam.com";
         });
       });
     });
-
-
-
 
   });
   </script>
