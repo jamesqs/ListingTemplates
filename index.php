@@ -3,7 +3,7 @@
 #ebayurl: https://www.ebay.co.uk/str/britishredcross
 #ee2a24
 
-$generatorUrl="http://shopiago.application.triplajam.com";
+$generatorUrl="http://iamjames.uk";
 //$generatorUrl="http://apps.shopiago.git";
 
 ?>
@@ -26,7 +26,7 @@ $generatorUrl="http://shopiago.application.triplajam.com";
 
   <div class="container mx-auto mb-16">
     <form>
-      <img src="https://app.shopiago.com/assets/app-images/main-logo.png" class="mt-5 ml-1 w-32" />
+      <img src="https://www.shopiago.com/_nuxt/img/shopiago.695c14b.png" class="mt-5 ml-1 w-32" />
 
       <div class=" p-6">
         <h1 class="font-black text-3xl mb-5">Template Generator</h1>
