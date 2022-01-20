@@ -55,7 +55,7 @@
 <div class="container mx-auto">
   <div class="mt-4 flex h-24">
     <a href="<?= $_POST['ebayurl'] ?>" title="Shop Home" target="_blank" class="flex-0">
-      <img src="<?= $_POST['logourl'] ?>" class="h-24 ml-8 mb-2" style="height: 48px;" />
+      <img src="<?= $_POST['logourl'] ?>" class="h-24 ml-8 mb-2" style="height: 96px;" />
     </a>
 
     <span class="text-sm flex-1 text-center align-middle mt-5 font-bold"><?= $_POST['slogan'] ?></span>
