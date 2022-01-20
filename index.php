@@ -216,7 +216,7 @@ $generatorUrl="http://iamjames.uk";
       $.ajax({
         method: "POST",
         //url: "<?= $generatorUrl ?>/categories.php",
-        url: "<?= $generatorUrl ?>/simpledom/test.php",
+        url: "<?= $generatorUrl ?>/parser/test.php",
         data: { ebayurl: ebayurl }
       })
       .done(function( msg ) {
